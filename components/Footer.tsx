@@ -14,7 +14,7 @@ export default function Footer() {
 
         {/* Wishing for a Delicious Experience */}
         <div className="mb-4 md:mb-0 text-center md:text-left">
-          <h2 className="text-xl font-bold mb-2 text-blue-950">
+          <h2 className="text-xl font-bold mb-2 text-blue-900">
             Wishing You a Delicious Experience 
           </h2>
         </div>
