@@ -17,20 +17,13 @@ export default function Home() {
           </p>
 
         <div className=" container mx-auto p-4">
-          <h1>Products</h1>
+          <h1>Category</h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6  items-center">
             <Link href="/peda">
               <ProductCard
                 image="/category/peda.jpg"
                 title="peda"
                 description="peda types"
-              />
-            </Link>
-            <Link href="/chanar">
-              <ProductCard
-                image="/category/peda.jpg"
-                title="chanar"
-                description="chanar types"
               />
             </Link>
             <Link href="/manakish">

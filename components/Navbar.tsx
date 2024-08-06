@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Navbar: React.FC = () => {
@@ -10,9 +11,12 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <header className="bg-blue-600 text-white p-4 shadow-sm">
+    <header className="bg-green-900 text-white p-4 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="h1">Çınar</h1>
+        <Link href="/">
+          <h1 className="h1">Çınar</h1>
+        </Link>
+
         <nav className="hidden md:flex space-x-4 text-white ">
           <a href="#" className="text-white hover:text-gray-300">
             Home
@@ -28,7 +32,7 @@ const Navbar: React.FC = () => {
           </a>
         </nav>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="focus:outline-none">
+          <button onClick={toggleMenu} className="focus:outline-none bg-green-900">
             <svg
               className="w-6 h-6"
               fill="none"

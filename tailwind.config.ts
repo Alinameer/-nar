@@ -52,6 +52,17 @@ const config = {
           800: '#737373',
           900: '#595959',
         },
+        green: {
+          100: '#E6F4EA',  // Light green shade
+          200: '#C8E6C9',  // Slightly darker light green shade
+          300: '#A5D6A7',  // Light-medium green shade
+          400: '#81C784',  // Medium green shade
+          500: '#66BB6A',  // Base green shade
+          600: '#4CAF50',  // Darker base green shade
+          700: '#388E3C',  // Dark green shade
+          800: '#2E7D32',  // Darker green shade
+          900: '#1B5E20',  // Darkest green shade
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
